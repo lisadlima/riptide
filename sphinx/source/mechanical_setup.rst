@@ -17,7 +17,7 @@ Look up max tightening torque for bolt size and materials mating.
 LOCTITE 222 THREADLOCKER is applied to all bolts/screws threading into stainless steel or connecting the sealing latches to the main aluminum housing. MARINE GRADE ANTI-SEIZE is applied to all other bolts/screws threading into aluminum prior to fastening. 8-32 bolts used to compress gasket should be tightened to a torque of 9 inch-pounds. All other bolts/screws should be hand-tightened.
 
 .. warning::
-   The heads of all bolts/screws must be free of wear and show no indication of stripping (damaged fasteners should be discarded immediately).
+   The heads of all bolts/screws must be free of wear and show no indication of stripping (Discarded damaged fasteners immediately). If you need to unbolt a fastener with Locktite, heat bolt up first with heat gun (be careful of fumes)
 
 Gaskets
 ~~~~~~~
@@ -32,7 +32,7 @@ The rubber is free of all nicks, cuts, excessive wear, discoloration, and/or per
 Star Pattern
 ~~~~~~~~~~~~
 
-Do it twice. Then, starting at the 12 o'clock position and working clockwise, tighten each bolt.
+Bolt/unbolt in a star pattern to evenly compress/decompress gasket or o-rings and evenly pretension bolts. Star pattern means a criss cross pattern for circular bolt patterns or spiral pattern for non-circular bolt patterns, for each bolt. Perform star pattern twice.
 
 Anti-Seize
 ~~~~~~~~~~
@@ -42,21 +42,26 @@ Roll the last quarter inch of the bolt in anti-seize making sure to thoroughly c
 Chassis
 -------
 
+.. image:: /_static/chassis.png
+
+
 Fasteners
 ~~~~~~~~~
+
 Use only SS 18-8 #8-32 3/4" bolts to tighten components together with antiseize.
 
-=============== =================
-Part            Hex  Driver Size
-=============== =================
-Chassis               9/64"
-Thrusters             M2.5
-Marker Dropper        3/32"
-=============== =================
+=============== ================= =====================
+Part            Hex  Driver Size  Loctite or Antiseize?
+=============== ================= =====================
+Chassis               9/64"               Antiseize
+Thrusters             M2.5                 Neither
+Marker Dropper        3/32"                Neither
+=============== ================= =====================
 
 
 Assembly
 ~~~~~~~~
+
 Cross braces from main housing have Loctite 271 high strength on bolts.
 If you need to unbolt these, heat it up first (be careful of fumes)
 Tightening back with Loctite 271
@@ -70,10 +75,14 @@ Note: Must take apart part of chassis to 100% disassemble manipulator
 
 Thrusters
 ---------
+
+.. image:: /_static/thruster_blue_t200.png
+
 Removal
 ~~~~~~~~
+
 #. Remove subconn from subconn plate. Note: use colour method to keep track of thruster
-#. 3-32 hex key to unscrew 4 bolts connecting thruster to chassis
+#. M2.5 hex key to unscrew 4 bolts connecting thruster to chassis
 
 The thrusters have been taped in colored bands.
 
@@ -111,7 +120,6 @@ Electronics Housing
 Fasteners
 ~~~~~~~~~
 
-                                                 add metric conversion
 
 =================== ===== ======== ====== ======= ========== ==========
 Mating              Count Material Thread Length  Torque     Coating
@@ -128,17 +136,16 @@ Extension Latches   12    Nylon
 Seals
 ~~~~~
 
-============ ===== ====== ==== =============
-Mating       Count Method Size Coating
-============ ===== ====== ==== =============
-Pressure     1     Twist?
-Clear Tube   2     Gasket      None
-Mid Housing  4     X-Ring      O-Ring Grease
-DVL Tube Cap 1     Gasket      None
-I/O Panels   2     Gasket      None
-============ ===== ====== ==== =============
+=============== ===== ===============  ======= =============
+Mating          Count Method           Size    Coating
+=============== ===== ===============  ======= =============
+Pressure Sensor   1     NPT thread     M10x1.5 Teflon Tape
+Clear Tube        2     Buna N Gasket  T 1/16" None
+Mid Housing       4     X O-Ringing            O-Ring Grease
+DVL Tube Cap      1     Buna N Gasket  T 1/16" None
+I/O Panels        2     Buna N Gasket  T 1/16"    None
+=============== ===== ===============  ======= =============
 
-* Black Gaskets: Buna N 1/16" Thick (Formed from o-ring material.)
 * See `Exterior Cables & Hoses`_ for SubConn connections.
 
 Assembly
@@ -147,136 +154,110 @@ Assembly
 .. warning::
    Ensure all fasteners attaching latches are tight and the sealing gasket appears compressed. DO NOT OVER TIGHTEN IF SECURED!
 
-**Central Core:**
+**Central Section:**
 
+.. image:: /_static/central_section.png
+
+DVL Tube
 #. Place the DVL Tube Cap gasket on the tube.
 #. Place the DVL cap on the DVL Tube Cap gasket.
 #. Secure the DVL cap using 6 DVL Tube Cap fasteners.
 #. Line up the 'ff' label on DVL with 'ff' label on housing for buoyancy.
 
-.. note::
-   For the time being the outermost rear fan bolts must be removed to insert and remove the electronics rocket.
+Interior Electronics
 
-#. Secure the pressure sensor wire out to the upper surface of the housing to prevent it from catch on the electronics rocket.
-#. Insert (Land) electronics rocket from the forward side of the tube.
+.. image:: /_static/interior_electronics.png
 
-#. PUT THE O-RING ON THE PANEL THEN PUT THE SCREWS IN AND THEN PUT IT ON.
+#. Secure the pressure sensor wire out to the upper surface of the housing to prevent it from snagging on the interior electronics.
+#. Insert interior electronics from the forward side.
 
-#. Place an I/O Panel gasket into the port mid housing receptacle. (Add link to panel chart.)
-#. Place the Port I/O panel against the I/O panel gasket with the giant power SubConn on the forward side.
+I/O Panel x2
+#. Place I/O Panel gaskets into the Central Section, both port and starboard.
+#. Place the Port I/O panel against the I/O panel gasket with the giant power SubConn on the forward side. (See panel chart.)
+#. Secure the I/O panels using ten #8-32 bolts with antiseize. LINE UP 2 bolts on port and starboard sides with interior mounting.
+#. Hand-tighten bolts in star pattern, then torque to spec. (Add links.)
 
 .. warning::
    Using a flashlight inspect the interior mating face to ensure the gasket is properly seated, repeat with finger.
 
-#. Secure the Port I/O panel using 10 Port I/O Panel bolts by first applying anti-seize then finger-tightening them and then preceding  to do the star stuff. (Add links.)
-
 .. warning::
-   Ensure the I/O panel bolts pass through the electronics rocket without being forced, or they'll bend it and warp it.
-
-REPEAT THE PORT PROCEDURE WITH THE STARBOARD SIDE...
-
-#. Place the Starboard I/O Panel gasket into the starboard mid housing receptacle.
-#. Place the starboard I/O panel atop the I/O panel gasket.
-#. Secure the starboard I/O panel using [some fasteners].
+   Ensure the I/O panel bolts pass through the interior electronics without being forced, or the electronics mounting could bend and warp.
 
 **Backplane:**
 
-* Add screws! Four, 4-40, 3/8", hand-tight, stainless
+#. Hand-tighten backplane to electronics mounting rods with four 4-40, 3/8", SS bolts
+#. Bolt the backplane to the electronics rocket's four cantilevered rods using backplane screws and washers.
+#. Connect all the cables. (See wiring diagram)
 
-#. Bolt the backplane to the electronics rocket's four canty-lever rods using backplane screws and washers.
-#. Connect all the cables, good luck bro.
+**Forward Section:**
 
-**After Extension:**
+Preparing the 2 X-profile Bruna-N 265 O-Rings:
 
-Attaching the lid:
+#. Clean out the o-ring grooves on central section with cotton swabs.
+#. With clean hands squeeze a pea sized amount of o-ring grease onto your thumb and forefinger.
+#. Pull the o-ring through the grease while applying steady pressure to ensure the o-ring is evenly coated. (Perform 3 revolutions of the o-ring to ensure an even coating.)
+#. Starting with the o-ring in contact with the aftermost groove, stretch the o-ring around the circumference of the tube and release it into the groove.
+#. Repeat for the second o-ring.
+
+.. warning::
+   Check the o-ring to make sure it is not twisted.
+
+Attaching the forward end-cap:
 
 #. Clean the mating surfaces and gasket, ensuring to remove any excess anti-seize.
 #. Place the gasket onto the housing mating surface and then place the lid onto the gasket.
-#. For each of the 8 lid bolts, apply anti-seize and then insert the bolt about 3/4 of the way.
+#. For each of the eight 8-32 bolts, apply anti-seize and then insert the bolt into the threaded stainless steel compression rods.
+#. Line up the sealing surfaces
 #. Tighten all bolts using the star pattern procedure.
 
-Preparing the o-rings:
+Attaching the Forward Section to Central Section:
 
-#. Clean out the o-ring housing grooves with cotton swabs, wash yo bitch as hands or don glove style ppe.
-#. With clean hands squeeze a "pea and a schmear" sized amount of o-ring grease onto your thumb and forefinger.
-#. Pull the o-ring through the grease while applying steady pressure to ensure the o-ring is evenly coated. (Perform 3 revolutions of the o-ring to ensure an even coating.)
-#. Starting with the o-ring in contact with the aftermost groove, stretch the o-ring around the circumference of the tube and release it into it's slot.
-
-.. warning::
-   Check the o-ring to make sure it is not twisted.
-
-#. Repeat for the second o-ring.
-
-Inserting the tube:
-
-#. Align the housing with the vehicle so that the latch tabs are horizontal.
+#. Align the sections so that the latch tabs are horizontal.
 #. Place the leading edge of the housing onto the after frame curved crossbar.
-#. While being careful to avoid contact with the backplane, slide the housing forward until, it is within an inch of the central portion.
+#. Slide the housing forward until, it is within an inch of the central portion.
 #. Slide the mating surfaces together, pushing firmly to engage the first o-ring.
-#. Hook the latches over the latch tabs, and close them until the locks catch. Pull back to ensure successful locking mechanism engagement.
+#. Hook the latches over the latch tabs, and pull latches at the same time until closed.
 #. The housing is sealed if and only if both mating surfaces are now in full contact with one-another. (The upper portion will be more "in full contact" than the lower portion.)
 
-**Forward Extension:**
 
-Attaching the lid:
+**Aft Section:**
+
+Prepare 2 o-rings. See the Forward Section, "Preparing the 2 X-profile Bruna-N 265 O-Rings" procedure.
+
+Attaching the aft end-cap:
 
 #. Clean the mating surfaces and gasket, being careful to remove excess anti-seize.
 #. Place the gasket onto the housing mating surface and then place the lid onto the gasket.
-#. For each of the 8 lid bolts, apply anti-seize and then insert the bolt about 3/4 of the way.
-#. Tighten all bolts using the star pattern procedure.
+#. Place the #8 screws on the aluminum ring through the acrylic plate.
+#. For each of the 8 lid bolts, apply anti-seize.
+#. Torque bolts to 9in-lbs using the star pattern procedure.
 
-Preparing the o-rings:
+Attaching the Aft Section to Central Section:
 
-#. Clean out the o-ring grooves with cotton swabs, wash yo bitch as hands or don glove-style PPE.
-#. With clean hands squeeze a "pea and a schmear" sized amount of o-ring grease onto your thumb and forefinger.
-#. Pull the o-ring through the grease while applying steady pressure to ensure the o-ring is evenly coated.
-#. Starting with the o-ring in contact with a groove stretch the first o-ring around the circumference of the tube and release it into it's slot.
-
-.. warning::
-   Check the o-ring to make sure it is not twisted.
-
-#. Repeat for the second o-ring.
-
-Inserting the tube:
-
-#. Align the housing so that the latch tabs are horizontal.
+#. Slide the aft section around the backplane PCB board.
+#. Line up the sealing surfaces.
+#. Align the sections so that the latch tabs are horizontal.
 #. Place the leading edge of the housing onto the forward frame curved crossbar.
-
-#. Tilt the housing forward until the lower leading edge is low enough to pass below the downward-facing camera.
 #. Push the housing longitudinally for an inch before leveling the housing.
-
-#. While being careful to avoid contact with the camera, slide the housing aft until, it is within an inch of the central portion.
 #. Slide the mating surfaces together, pushing firmly to engage the first o-ring.
-#. Hook the latches over the latch tabs, and close them until the locks catch. Pull back to ensure successful locking mechanism engagement.
-#. The housing is sealed if and only if both mating surfaces are now in full contact with oneanother.
-
-
-Mounting
-~~~~~~~~
-
-**Attaching Central Core to Frame**
-
-**Attaching Forward Extension to Central Core**
-
-See above, for now.
-
-**Attaching After Extension to Central Core**
-
-See above, for now.
+#. Hook the latches over the latch tabs, and pull latches at the same time until closed.
+#. The housing is sealed if and only if both mating surfaces are now in full contact with one another.
 
 
 Acoustics Housing
 -----------------
 
+.. image:: /_static/acoustic_housing.png
+
 Fasteners
 ~~~~~~~~~
 
-============== ===== ======== ====== ======= ======= ==========
-Mating         Count Material Thread Length  Torque  Coating
-============== ===== ======== ====== ======= ======= ==========
-Mounting Block 3     Krylon   8-32   0.5in   9in-lbs Anti-Seize
-Housing Lid    8     Nylon    8-32   0.75in  9in-lbs Anti-Seize
-============== ===== ======== ====== ======= ======= ==========
+======================= ===== ======== ====== ======= ======= ==========
+Mating                  Count Material Thread Length  Torque  Coating
+======================= ===== ======== ====== ======= ======= ==========
+Acoustic Mounting Block 3     Krylon   8-32   0.5in   9in-lbs Anti-Seize
+Housing Lid             8     Nylon    8-32   0.75in  9in-lbs Anti-Seize
+======================= ===== ======== ====== ======= ======= ==========
 
 Seals
 ~~~~~
@@ -294,25 +275,25 @@ Hydrophones       3     Screw?
 Assembly
 ~~~~~~~~
 
-#. Securely tighten hydrophones to mounting block.
-#. Place hydrophone gasket on [something].
 #. Place hydrophone block on hydrophone gasket.
-#. Secure block and gasket using three mounting block fasteners.
-#. Place lid gasket on housing.
-#. Place lid on gasket.
-#. Secure lid and gasket using eight lid fasteners in a star pattern.
+#. Securely tighten hydrophones and gasket to mounting block.
+#. Secure mounting block assembly and gasket using three 8-32 bolts. Apply antiseize and tighten to 9 in-lbs in a star pattern.
+#. Place lid over gasket.
+#. Secure lid and gasket using eight 8-32 bolts. Apply antiseize and tighten to 9 in-lbs in a star pattern.
 
-Mounting
-~~~~~~~~
+Removal
+~~~~~~~
 
-#. 2 Man Job: 1st person lifts robot straight up by front chassis handles, exposing robot under-belly
-#. 2nd person holds acoustic housing and unlatch. Gently pull acoustic housing from chassis. Note: Subconn still connected!
+#. 2 Man Job: 1st person lifts robot straight up by forward chassis handles, exposing robot under-belly.
+#. 2nd person holds acoustic housing and unlatches chassis. Gently pull acoustic housing from chassis. Note: Subconn still connected!
 #. Remove Subconn
 #. Relatch the latch. Set robot down.
 
 
 Battery Housings
 ----------------
+
+.. image:: /_static/battery_housings.png
 
 .. note::
 
@@ -331,13 +312,13 @@ Housing Lid    8     Nylon    8-32   0.75in  9in-lbs Anti-Seize
 Seals
 ~~~~~
 
-============= ===== ====== ==== =============
-Mating        Count Method Size Coating
-============= ===== ====== ==== =============
-Relief Valve  1
-Valve Block   1     Gasket      None
-Housing Lid   1     Gasket      None
-============= ===== ====== ==== =============
+============= ===== ========== ==== =============
+Mating        Count Method     Size Coating
+============= ===== ========== ==== =============
+Relief Valve  1     NPT thread      Teflon Tape
+Valve Block   1     Gasket          None
+Housing Lid   1     Gasket          None
+============= ===== ========== ==== =============
 
 * See `Exterior Cables & Hoses`_ for SubConn connections.
 
@@ -352,8 +333,8 @@ Assembly
 #. Place the lid onto the housing and gasket.
 #. Secure the lid using 8 fasteners in a star pattern.
 
-Mounting
-~~~~~~~~
+Mounting Removal
+~~~~~~~~~~~~~~~~
 
 .. note::
    The data SubConn must be attached to the battery housing and all other main housing subconns must be attached prior to placing the battery housing into it's receptacle.
@@ -366,6 +347,8 @@ Mounting
 
 Pneumatics Housing
 ------------------
+
+.. image:: /_static/pneumatics_housing.png
 
 .. warning::
    If the pneumatics system will not be used and the hoses will not be inserted the grabbers and pnuematics housing must be removed from the vehicle prior to submerging.
@@ -384,13 +367,13 @@ Housing Lid    12    Krylon   8-32   0.75in  9in-lbs Anti-Seize
 Seals
 ~~~~~
 
-============= ===== ====== ==== =============
-Mating        Count Method Size Coating
-============= ===== ====== ==== =============
-Relief Valve  7     Gasket      None
-Tube Matrix   1     Gasket      None
-Housing Lid   4     Gasket      None
-============= ===== ====== ==== =============
+============= ===== ========== ==== =============
+Mating        Count Method     Size Coating
+============= ===== ========== ==== =============
+Relief Valve  1     NPT thread      None
+Tube Matrix   1     Gasket          None
+Housing Lid   4     Gasket          None
+============= ===== ========== ==== =============
 
 * See `Exterior Cables & Hoses`_ for SubConn connections.
 
@@ -406,25 +389,24 @@ Assembly
 ~~~~~~~~
 
 .. warning::
-   The housing lid and gasket appear to be a square, but are in fact rectangular. Take special care to align the lid and gasket properly or
+   The housing lid and gasket appear to be a square, but are in fact rectangular. Take special care to align the lid and gasket properly.
 
-#. Put the relief valve itself onto something.
-#. Place relief valve gaskets where they go.
-#. Put the relief valve block between them?
-#. Secure the relief valve using four Krylon bolts.
+#. Screw the relief valve into valve block.
+#. Place relief valve gaskets between relief valve and valve block.
+#. Secure the relief valve assembly using four, Krylon 8-32 bolts. Torque to 9in-lb in star pattern.
 #. Place tube matrix gasket on the housing.
 #. Place tube matrix on the gasket.
-#. Secure the tube matrix and gasket using 6 Nylon bolts.
+#. Secure the tube matrix and gasket using six, Nylon 8-32 bolts. Torque to 9in-lb in star pattern.
 #. Place the housing lid gasket on the housing.
 #. Place the housing lid on the gasket.
-#. Secure the housing lid and gasket using 12 screws.
+#. Secure the housing lid and gasket using twelve, Krylon 8-32 bolts.
 
-Mounting
-~~~~~~~~
+Mounting Assembly
+~~~~~~~~~~~~~~~~~
 
-#. 4 Latches must secure pneumatics housing to chassis
-#. Bolt housing to chassis with 9/64" hex driver
-#. For removal, keep 2 forward latches secured while unscrewing bolts
+#. 4 latches secure pneumatics housing to chassis.
+#. Bolt housing to chassis with 9/64" hex driver.
+#. For removal, keep 2 forward latches secured while unscrewing bolts.
 
 Removal of Air Tank
 ~~~~~~~~~~~~~~~~~~~
@@ -435,44 +417,24 @@ Removal of Air Tank
 Main Housing
 ------------
 
+.. image:: ../_static/main_housing.png
+
 .. warning::
    Careful not to twist or tear O-rings during assembly
    Visually check the mating interfaces have a uniform gap
 
-Fasteners
-~~~~~~~~~
-Back cap: #8 screws
-
-Front Cap Assembly
-~~~~~~~~~~~~~~~~~~
-.# Place the front cap bottom stainless steel rods in the channels.
-.# Line up the sealing surfaces.
-.# Engage latches by carefully forcing front cap into main housing.
-.# Pull latches at the same time to fully close the front of the vehicle.
-
-Back Cap Assembly
-~~~~~~~~~~~~~~~~~
-.# Attach the Acrylic plate to rear end of the Aluminum tube.
-.# Place the #8 screws on the aluminum ring through the acrylic plate.
-.# Place the gasket on all the screws.
-.# Torque screws to 9 in-lb in a star pattern.
-.# Lube 2 X-profile Bruna-N 265 O-Rings and place in O-Ring grooves.
-.# Slide the back cap around the backplane.
-.# Line up the sealing surfaces.
-.# Engage latches by carefully forcing front cap into main housing.
-.# Pull latches at the same time to fully close the front of the vehicle.
-
 Disassembly
 ~~~~~~~~~~~
+
 #. Unlatch latches on side needed.
 #. Firmly Pull each tube out. Do NOT damage O-ring seals.
 #. Remove Subconn plates and clear interior electronics. Note: careful of red pressure sensor cord. See interior electronics removal.
-#. Unscrew 4 bolts that attach housing to chassis using 9-64 hex key.
+#. Unscrew 4 bolts that attach main housing to chassis by heating up Loctite with heat gun, then using a 9-64 hex key.
 #. Lift main housing straight up.
 
 
-Manipulator
------------
+Forward Manipulator
+-------------------
 
 Fasteners
 ~~~~~~~~~
@@ -526,7 +488,8 @@ Assembly
 
 Mounting
 ~~~~~~~~
-Directly to chassis
+
+Directly to chassis. Note: for removal, part of the chassis must be disassembled!
 
 **Attaching the hoses:**
 
@@ -537,6 +500,8 @@ Directly to chassis
 
 Torpedo Launchers
 -----------------
+
+.. image:: /_static/torpedo_launcher.png
 
 Fasteners
 ~~~~~~~~~
@@ -561,8 +526,8 @@ Mounting
 #. Push the pneumatic hose in the barrel until it bottoms out.
 
 
-Exterior Cables & Hoses
------------------------
+Subconn Cables & Hoses
+----------------------
 
 .. warning::
    The bulkhead connectors are tightened against mounting surfaces. MOLYKOTE 44 MEDIUM grease is applied to all male pins before mating.
@@ -635,27 +600,6 @@ Main Housing I/O Panel -- Starboard
 +---------------------------+-----------------+--------+----------------+
 | Tether                    | Ethernet        |  8     |                |
 +---------------------------+-----------------+--------+----------------+
-
-Pneumatics Housing (Hoses)
-~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-+---------------------------+----------+----------+
-| Connection                | Color    | Diameter |
-+===========================+==========+==========+
-| Supply                    |          |          |
-+---------------------------+----------+----------+
-| Manipulator -- Port       |          |          |
-+---------------------------+----------+----------+
-| Manipulator -- Stbd       |          |          |
-+---------------------------+----------+----------+
-| Marker Dropper -- Port    |          |          |
-+---------------------------+----------+----------+
-| Marker Dropper -- Stbd    |          |          |
-+---------------------------+----------+----------+
-| Torpedo Launcher -- Port  |          |          |
-+---------------------------+----------+----------+
-| Torpedo Launcher -- Stbd  |          |          |
-+---------------------------+----------+----------+
 
 
 SubConn Pinouts
